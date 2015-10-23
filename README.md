@@ -1,14 +1,5 @@
-# App name
+# Just Giving Zendesk App
 
-[brief description of the app]
-
-### The following information is displayed:
-
-* info1
-* info2
-* info3
+This Zendesk app allows Fundraisers who use Zendesk the ability to view fundraising and donation details from Just Giving directly within their Zendesk account.
 
 Please submit bug reports to [Insert Link](). Pull requests are welcome.
-
-### Screenshot(s):
-[put your screenshots down here.]
