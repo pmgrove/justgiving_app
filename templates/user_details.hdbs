@@ -1,0 +1,15 @@
+<div>
+  <div style="float:right"><img src="{{image.url}}" title="{{owner}}" alt="{{owner}}" width="100" style="padding: 0 0 10px 10px"/></div>
+  <div>
+    <h3><a href="https://www.justgiving.com/{{pageShortName}}" target="_blank">{{owner}}</a></h3>
+    <h4>Total raised online: {{currencySymbol}}{{grandTotalRaisedExcludingGiftAid}}</h4>
+    <p>Event: {{eventName}}</p>
+    <p>Raising money for: <a href="{{profilePageUrl}}" target="_blank">{{charity.name}}</a>
+    <p>Target: {{currencySymbol}}{{fundraisingTarget}}</p>
+  </div>
+  <hr />
+  <h4>Donations</h4>
+  <div id="donations-loading">{{spinner "dotted"}}</div>
+  <div id="donations" style="display:none"></div>
+  <div style="clear:both"></div>
+</div>

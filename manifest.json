@@ -1,0 +1,33 @@
+{
+  "name": "Just Giving App",
+  "author": {
+    "name": "Phil Grove",
+    "email": "philmgrove@gmail.com",
+    "url": ""
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["user_sidebar", "ticket_sidebar"],
+  "version": "1.0",
+  "frameworkVersion": "1.0",
+  "parameters": [
+    {
+      "name": "api_url",
+      "type": "text",
+      "required": true,
+      "default": "https://api-sandbox.justgiving.com"
+    },
+    {
+      "name": "api_version",
+      "type": "text",
+      "required": true,
+      "default": "v1"
+    },
+    {
+      "name": "app_id",
+      "type": "text",
+      "required": true,
+      "secure": true
+    }
+  ]
+}

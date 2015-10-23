@@ -1,0 +1,6 @@
+<ul>
+<li>Amount: {{amount}}</li>
+<li>Date: {{donationDate}}</li>
+<li>Ref: {{donationRef}}</li>
+<li>Status: {{status}}</li>
+</ul>

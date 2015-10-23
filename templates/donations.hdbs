@@ -1,0 +1,14 @@
+<table width="100%">
+  <tr>
+    <th>Donor</th>
+    <th>Amount</th>
+    <th>Date</th>
+  </tr>
+{{#each donations}}
+<tr>
+<td>{{donorDisplayName}}</td>
+<td>{{donorLocalAmount}}</td>
+<td>{{donationDate}}</td>
+</tr>
+{{/each}}
+</table>
